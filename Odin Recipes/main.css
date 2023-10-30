@@ -1,0 +1,59 @@
+html, body, div, img, h1, a {
+    padding: 0%; 
+    border: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(36, 26, 10);
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+/* div, img, h1 {
+    border: red solid 1px;
+} */
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recipes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1rem ;
+}
+
+#recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+height: 300px;
+width: 300px;
+margin-top: 5px;
+}
+
+a {
+    background-color: rgb(186, 117, 117);
+    margin: 5px;
+    padding: 18px;
+    border-radius: 2px;
+    width: 300px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(238, 2, 49);
+}
+
+h1  {
+    margin: 10px;
+}
+
