@@ -49,13 +49,15 @@ li, p {
     font-weight: 200;
 }
 
-button {
+a {
     background-color: rgb(186, 117, 117);
     border: 0;
     padding: 10px;
     width: fit-content;
+    text-decoration: none;
+    color: inherit
 }
 
-button:hover {
+a:hover {
     background-color: rgb(238, 2, 49);
 }
