@@ -1,0 +1,54 @@
+html, body, main, div, img, h1, button, h3, h4,nav , header {
+    padding: 0%; 
+    border: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+
+html, main, footer, li {
+    border: red solid 1px;
+}
+
+div, img, h1, button, h3, h4, nav, header {
+    border: rgb(31, 19, 202) solid 1px;
+}
+
+#first > div, header {
+    margin: 0 15%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ma
+}
+
+header, footer, #first {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    font-weight: 100;
+    font-size: .7rem;
+    margin: 0 10px;
+}
+
+#first-body {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    margin-left: 20px;
+}
